@@ -27,18 +27,15 @@ button {
   border-radius: 10px;
   padding: 25px;
   box-shadow: 0 0 5px 0 #c6c6c6;
-}
-
-
-.btn-wrap {
-  display:flex;
-  align-items: center;
-  justify-content: flex-end;
-  button {
-    margin: 0 5px;
+  .btn-wrap {
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+    button {
+      margin: 0 5px;
+    }
   }
-}
-
-.form-elements {
-  margin: 10px 0;
+  .form-elements {
+    margin: 10px 0;
+  }
 }

@@ -13,7 +13,7 @@
 
         <div class="container">
           <h1>Notepad</h1>
-          <div class="wrapper">
+          <div class="wrapper" id="wrapper">
             <div class="row">
               <div class="col-md-6">
                 <div>
@@ -22,9 +22,11 @@
                 </div>
                 <div class="note-adder">
                   <label class="note-label" for="note">Note</label>
-                  <input type="text" class="form-control form-elements" id="note" placeholder="Notepad Title...">
-                  <textarea class="form-control form-elements" placeholder="Note Text..."></textarea>
-                  <button class="btn btn-success">Save</button>
+                  <form >
+                    <input type="text" class="form-control form-elements" id="newNoteTitle" placeholder="Note Title...">
+                    <textarea class="form-control form-elements" placeholder="Note Text..." id="newNoteText"></textarea>
+                    <button id="addNote" class="btn btn-success">add</button>
+                  </form>
                 </div>
               </div>
               <div class="col-md-6">
@@ -34,8 +36,7 @@
                 </div>
               </div>
             </div>
-
-
+            <div id="newNoteWrap"></div>
           </div>
         </div>
 
